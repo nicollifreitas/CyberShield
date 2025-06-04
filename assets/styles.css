@@ -1,0 +1,125 @@
+/* Geral */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.header-container {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #00bcd4; /* Accent color */
+  font-weight: bold;
+}
+
+.header-container h1 {
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+.header-container p {
+  font-size: 1.2em;
+  color: #a0a0a0;
+}
+
+/* Container das abas */
+.custom-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  flex-wrap: nowrap;
+  padding: 0 20px;
+}
+
+/* Aba padrão (não selecionada) */
+.custom-tab {
+  padding: 12px 24px;
+  cursor: pointer;
+  background-color: #1e1e1e !important;
+  border: 2px solid #444 !important;
+  color: #ccc !important;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  user-select: none;
+}
+
+.custom-tab:hover {
+  background-color: #272727 !important;
+  border-color: #00bcd4 !important;
+  color: #00bcd4 !important;
+}
+
+/* Aba selecionada */
+.custom-tab--selected {
+  background-color: #00bcd4 !important;
+  color: #121212 !important;
+  border-color: #00bcd4 !important;
+  font-weight: 700;
+  box-shadow: 0 4px 10px rgba(0, 188, 212, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Card geral */
+.custom-card {
+  background-color: #272727;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  padding: 20px;
+  margin-bottom: 20px;
+  border: none;
+  color: #ddd;
+}
+
+/* CardBody */
+.card-body {
+  padding: 0;
+}
+
+/* Parágrafos destacados dentro dos cards */
+.card-text {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #272727;
+  color: #ddd;
+  border-left: 5px solid #00bcd4;
+  line-height: 1.5em;
+  white-space: pre-line;
+}
+
+.paragraph-italic {
+  font-style: italic;
+  color: #a0a0a0;
+  line-height: 1.6em;
+  margin: 10px 0;
+}
+
+.card-text-danger {
+  border-left-color: #ff4d4d;
+}
+
+/* Footer */
+footer {
+  color: #888;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+/* Gráficos DCC */
+.graph-container {
+  background-color: #272727 !important;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* Outros detalhes visuais */
+html, body, #root, .app {
+  height: 100%;
+  margin: 0;
+  padding: 0 20px;
+}
