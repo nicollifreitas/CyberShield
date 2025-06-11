@@ -14,4 +14,10 @@ register_callbacks(app)
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 8050))
-    app.run_server(host="0.0.0.0", port=port, debug=True)
+    is_render = os.environ.get("RENDER", False)
+
+    app.run(
+        host="0.0.0.0" if is_render else "127.0.0.1",
+        port=port,
+        debug=True
+    )
