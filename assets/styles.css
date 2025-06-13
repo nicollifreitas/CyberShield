@@ -109,14 +109,6 @@ footer {
   font-size: 0.9em;
 }
 
-/* Gráficos DCC */
-.graph-container {
-  background-color: #272727 !important;
-  border-radius: 8px;
-  padding: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-}
-
 /* Outros detalhes visuais */
 html, body, #root, .app {
   height: 100%;
