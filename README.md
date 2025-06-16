@@ -2,11 +2,11 @@
 
 O **CyberShield** é um painel analítico interativo desenvolvido para analisar ameaças cibernéticas globais entre 2015 e 2024. Utilizando Python, Dash e bibliotecas de visualização, o projeto visa extrair insights relevantes sobre ataques cibernéticos.
 
-Acesse o dashboard online: 👉 [cybershield-j2bk.onrender.com](https://cybershield-j2bk.onrender.com/)
-
 O projeto é dividido em duas partes principais:
-- 📘 Um arquivo notebook com a **exploração inicial dos dados e aplicação de testes estatísticos**.
-- 📊 Um dashboard interativo construído com **Dash** para visualização dinâmica dos resultados.
+- 📘 Um arquivo notebook com a **exploração inicial dos dados e aplicação de testes estatísticos**.  
+🔗 Acesse o notebook no Google Colab: [colab.research.google.com](colab.research.google.com)
+- 📊 Um dashboard interativo construído com **Dash** para visualização dinâmica dos resultados.  
+🌐 Acesse o dashboard online: 👉 [cybershield-j2bk.onrender.com](https://cybershield-j2bk.onrender.com/)
 
 ## 📁 Estrutura do Projeto
 
