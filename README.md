@@ -4,7 +4,7 @@ O **CyberShield** é um painel analítico interativo desenvolvido para analisar 
 
 O projeto é dividido em duas partes principais:
 - 📘 Um arquivo notebook com a **exploração inicial dos dados e aplicação de testes estatísticos**.  
-🔗 Acesse o notebook no Google Colab: [colab.research.google.com](colab.research.google.com)
+🔗 Acesse o notebook no Google Colab: [eda_and_statistical_tests.ipynb](https://colab.research.google.com/drive/1raw9eCn0jONcWe459b9KIQh58AadDAF_?usp=sharing)
 - 📊 Um dashboard interativo construído com **Dash** para visualização dinâmica dos resultados.  
 🌐 Acesse o dashboard online: 👉 [cybershield-j2bk.onrender.com](https://cybershield-j2bk.onrender.com/)
 
